@@ -11,7 +11,7 @@ return check; }
 /**
 *On -load- actions
 **/
-$(window).load(function ( ) {
+$(window).on('load', function ( ) {
   console.log("load");
 
   var loaded = false;
